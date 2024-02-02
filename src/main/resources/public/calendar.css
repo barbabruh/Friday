@@ -1,0 +1,33 @@
+#calendar {
+
+    display: grid;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: red;
+}
+
+.body{
+    margin: 0;
+
+}
+.day{
+    border-color: black;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.selected{
+    background-color: blue;
+
+}
+
+.rdv{
+
+}
